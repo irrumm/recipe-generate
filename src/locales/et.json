@@ -1,0 +1,18 @@
+{
+  "Components": {
+    "AppHeader": {
+      "title": "Retseptide generaator",
+      "logoPlaceholder": "Retseptide generaator pilt",
+      "languageBtn": "Vali keel",
+      "language": {
+        "et": "Eesti",
+        "en": "Inglise"
+      }
+    },
+    "AppRecipeItem": {
+      "price": "Hinna ikoon",
+      "time": "Aja ikoon",
+      "minutes": "minutit"
+    }
+  }
+}

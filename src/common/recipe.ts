@@ -5,7 +5,7 @@ export class Recipe {
   public id: number;
 
   /** Name of the recipe */
-  public name: string;
+  public name: { [lang: string]: string };
 
   /** List of main ingredients used in the recipe */
   public ingredients: {

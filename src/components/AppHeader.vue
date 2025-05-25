@@ -4,6 +4,12 @@
       <img src="./icons/logo.svg" :alt="$t('Components.AppHeader.logoPlaceholder')" />
       <h1>{{ $t("Components.AppHeader.title") }}</h1>
     </div>
+    <div v-if="$i18n.availableLocales.length > 1" class="language-btn">
+      <label for="languages"><img :src="getLangImage($i18n.locale)" :alt="$t('Components.AppHeader.languageBtn')"></label>
+      <select id="languages" v-model="$i18n.locale">
+        <option v-for="locale in $i18n.availableLocales" :key="locale" :value="locale">{{ $t(`Components.AppHeader.language.${locale}`) }}</option>
+      </select>
+    </div>
   </header>
 </template>
 
@@ -11,7 +17,12 @@
 import {defineComponent} from "vue";
 
 export default defineComponent({
-  name: "app-header"
+  name: "app-header",
+  methods: {
+    getLangImage(lang: string) {
+      return new URL(`./icons/${lang}.svg`, import.meta.url).href
+    }
+  }
 })
 </script>
 
@@ -33,5 +44,14 @@ export default defineComponent({
 .logo img {
   height: 60px;
   margin-right: 0.75rem;
+}
+
+.language-btn {
+  display: flex;
+}
+
+#languages {
+  height: 32px;
+  margin-left: 0.5rem;
 }
 </style>

@@ -2,7 +2,12 @@
   "Components": {
     "AppHeader": {
       "title": "Recipe generate",
-      "logoPlaceholder": "Recipe generator image"
+      "logoPlaceholder": "Recipe generator image",
+      "languageBtn": "Choose language",
+      "language": {
+        "et": "Estonian",
+        "en": "English"
+      }
     },
     "AppRecipeItem": {
       "price": "Price icon",

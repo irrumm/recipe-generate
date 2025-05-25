@@ -2,7 +2,7 @@
   <div class="box">
       <div><img class="recipe-image" :src="getRecipeImage" alt=""></div>
     <div>
-      <div class="recipe-title">{{ item.name }}</div>
+      <div class="recipe-title">{{ item.name[$i18n.locale] }}</div>
       <div class="recipe-info">
         <img class="recipe-icon" src="./icons/price.svg" :alt="$t('Components.AppRecipeItem.price')"/>
         {{ item.price }}€
