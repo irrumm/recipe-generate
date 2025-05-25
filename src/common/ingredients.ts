@@ -14,6 +14,7 @@ export enum Mains {
   BUCKWHEAT = "buckwheat",
   POTATO = "potato",
   BREAD = "bread",
+  VEGETABLES = "vegetables",
   OTHER = "other"
 }
 
