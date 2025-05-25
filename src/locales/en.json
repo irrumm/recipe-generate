@@ -1,0 +1,13 @@
+{
+  "Components": {
+    "AppHeader": {
+      "title": "Recipe generate",
+      "logoPlaceholder": "Recipe generator image"
+    },
+    "AppRecipeItem": {
+      "price": "Price icon",
+      "time": "Time icon",
+      "minutes": "minutes"
+    }
+  }
+}
