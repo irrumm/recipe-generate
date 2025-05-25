@@ -5,18 +5,16 @@
 </template>
 
 <script lang="ts">
-import {recipes} from "@/data/recipeData.ts";
 import AppRecipeItem from "@/components/AppRecipeItem.vue";
-import {defineComponent} from "vue";
+import {defineComponent, type PropType} from "vue";
+import type {Recipe} from "@/common/recipe.ts";
 
 export default defineComponent({
   components: {
     AppRecipeItem
   },
-  data() {
-    return {
-      recipes: recipes
-    }
+  props: {
+    recipes: Array as PropType<Recipe[]>
   }
 })
 </script>

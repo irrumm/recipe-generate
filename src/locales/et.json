@@ -9,10 +9,41 @@
         "en": "Inglise"
       }
     },
+    "AppSidebar": {
+      "meats": "Lihad",
+      "mains": "Lisandid",
+      "type": "Tüüp",
+      "itemsChosen": "{count} valitud"
+    },
     "AppRecipeItem": {
       "price": "Hinna ikoon",
       "time": "Aja ikoon",
       "minutes": "minutit"
+    }
+  },
+  "Ingredients": {
+    "meats": {
+      "meat": "Liha",
+      "ham": "Sink",
+      "bacon": "Peekon",
+      "mincedMeat": "Hakkliha",
+      "chicken": "Kana",
+      "seafood": "Mereannid",
+      "noMeat": "Ilma lihata"
+    },
+    "mains": {
+      "pasta": "Pasta",
+      "rice": "Riis",
+      "buckwheat": "Tatar",
+      "potato": "Kartul",
+      "bread": "Sai / leib",
+      "other": "Muu"
+    },
+    "type": {
+      "junkFood": "Rämpstoit",
+      "healthy": "Tervislik",
+      "snack": "Snäkk",
+      "other": "Muu"
     }
   }
 }

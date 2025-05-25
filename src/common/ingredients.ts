@@ -2,11 +2,10 @@ export enum Meats {
   MEAT = "meat",
   HAM = "ham",
   BACON = "bacon",
-  MINCED_MEAT = "minced_meat",
+  MINCED_MEAT = "mincedMeat",
   CHICKEN = "chicken",
-  FISH = "fish",
   SEAFOOD = "seafood",
-  NO_MEAT = "no_meat"
+  NO_MEAT = "noMeat"
 }
 
 export enum Mains {
@@ -19,7 +18,8 @@ export enum Mains {
 }
 
 export enum Type {
-  JUNK_FOOD = "junk_food",
+  JUNK_FOOD = "junkFood",
   HEALTHY = "healthy",
-  SNACK = "snack"
+  SNACK = "snack",
+  OTHER = "other"
 }

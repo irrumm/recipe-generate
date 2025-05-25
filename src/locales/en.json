@@ -9,10 +9,41 @@
         "en": "English"
       }
     },
+    "AppSidebar": {
+      "meats": "Meats",
+      "mains": "Mains",
+      "type": "Type",
+      "itemsChosen": "{count} chosen"
+    },
     "AppRecipeItem": {
       "price": "Price icon",
       "time": "Time icon",
       "minutes": "minutes"
+    }
+  },
+  "Ingredients": {
+    "meats": {
+      "meat": "Meat",
+      "ham": "Ham",
+      "bacon": "Bacon",
+      "mincedMeat": "Minced meat",
+      "chicken": "Chicken",
+      "seafood": "Seafood",
+      "noMeat": "No meat"
+    },
+    "mains": {
+      "pasta": "Pasta",
+      "rice": "Rice",
+      "buckwheat": "Buckwheat",
+      "potato": "Potato",
+      "bread": "Bread",
+      "other": "Other"
+    },
+    "type": {
+      "junkFood": "Junk food",
+      "healthy": "Healthy",
+      "snack": "Snack",
+      "other": "Other"
     }
   }
 }
